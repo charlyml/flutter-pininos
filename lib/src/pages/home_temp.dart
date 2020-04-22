@@ -13,17 +13,17 @@ class HomePageTemp extends StatelessWidget {
   }
 
   // Two ways to do the same thing... return a list of ListTile
-  List<Widget> _crearItems() {
-    List<Widget> lista = new List<Widget>();
+  // List<Widget> _crearItems() {
+  //   List<Widget> lista = new List<Widget>();
 
-    for (var opt in opciones) {
-      final tempWidget = ListTile(title: Text(opt));
+  //   for (var opt in opciones) {
+  //     final tempWidget = ListTile(title: Text(opt));
 
-      lista..add(tempWidget)..add(Divider());
-    }
+  //     lista..add(tempWidget)..add(Divider());
+  //   }
 
-    return lista;
-  }
+  //   return lista;
+  // }
 
   List<Widget> _crearItemsCorta() {
     return opciones.map((item) {
